@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2023 年 7 月小学期小组合作完成的基础大数据分析项目
 
 10天项目
@@ -21,3 +22,6 @@
 5、Zookeeper、HBase：在此之前，数据都是经过 SparkSQL 读取 HDFS 路径下的数据源进行数据分析后存入数据库，现在加入 HBase，要求将 csv 数据源直接写入 HBase，从 HBase 读取数据
 
 6、SparkMLIB 机器学习：预测分析
+=======
+# Bigdata_group_project
+>>>>>>> 5805cf072d88b9d4d3689fdb256998584013ea83
