@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Price Prediction Chart</title>
+    <!-- 引入 ECharts 文件 -->
+    <script type="text/javascript" src="../js/echarts.min.js"></script>
+</head>
+<body>
+<!-- 创建一个具有指定尺寸的 div 容器 -->
+<div id="chart" style="width: 800px; height: 600px;"></div>
+
+<script type="text/javascript">
+    // 使用 ECharts 初始化图表
+    var chart = echarts.init(document.getElementById('chart'));
+
+    // 请求数据
+    var data = {
+        // 将您的预测结果数据（featuresdate和Price）填充到以下数组中
+        featuresdate: [
+            // [2020.0, 3.0, 0.0],
+            [2020.0, 3.0, 1.0],
+            [2020.0, 3.0, 2.0],
+            [2020.0, 3.0, 3.0],
+            [2020.0, 3.0, 4.0],
+            // [2020.0, 4.0, 0.0],
+            [2020.0, 4.0, 1.0],
+            [2020.0, 4.0, 2.0],
+            [2020.0, 4.0, 4.0],
+            // [2020.0, 5.0, 0.0],
+            [2020.0, 5.0, 1.0],
+            [2020.0, 5.0, 2.0],
+            [2020.0, 5.0, 3.0],
+            [2020.0, 5.0, 4.0],
+            // [2020.0, 6.0, 0.0],
+            [2020.0, 6.0, 1.0],
+            [2020.0, 6.0, 2.0],
+            [2020.0, 6.0, 3.0],
+            [2020.0, 6.0, 4.0]
+            // 填充剩余数据...
+        ],
+        Price: [
+            // 11877.071852210067,
+            10255.891507570359,
+            8634.711162930651,
+            7013.53081829094,
+            5392.350473651233,
+            // 11210.484965261068,
+            9589.304620621358,
+            7968.12427598165,
+            4725.763586702231,
+            // 10543.898078312066,
+            8922.717733672358,
+            7301.5373890326455,
+            5680.357044392938,
+            4059.1766997532304,
+            // 9877.31119136306,
+            8256.130846723356,
+            6634.950502083647,
+            5013.770157443938,
+            3392.589812804228
+            // 填充剩余数据...
+        ]
+    };
+
+    // 绘制图表
+    var option = {
+        tooltip: {
+            trigger: 'axis',
+            axisPointer: { // 坐标轴指示器，坐标轴触发有效
+                type: 'shadow' // 默认为直线，可选为：'line' | 'shadow'
+            }
+        },
+        // 修改图表位置大小
+        grid: {
+            left: '0%',
+            top: '10px',
+            right: '0%',
+            bottom: '4%',
+            containLabel: true
+        },
+        xAxis: {
+            type: 'category',
+            data: data.featuresdate
+        },
+        yAxis: {
+            type: 'value'
+        },
+        series: [{
+            data: data.Price,
+            type: 'line'
+        }]
+    };
+
+    // 将配置项设置给图表
+    chart.setOption(option);
+</script>
+</body>
+</html>

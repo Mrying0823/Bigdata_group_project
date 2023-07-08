@@ -1,0 +1,29 @@
+server:
+  port: 8088
+
+spring:
+  mvc:
+    view:
+      prefix: /pages/
+      suffix: .html
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.56.102:3306/Airline
+    username: root
+    password: 123456
+
+  devtools:
+    remote:
+      restart:
+        enabled: true
+    restart:
+      additional-paths: AirlineWeb/src/main/java
+      exclude: static/**
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+
+logging:
+  level:
+    org.example.dao: debug

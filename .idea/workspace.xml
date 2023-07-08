@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04927ac1-83fc-46ff-9e30-0e6ab4f26558" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="6a415df8-2af0-4942-9add-221eaba649e5" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.9.2\maven-repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.9.2" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.9.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2Ir0pq52wNDc4CRKU459gPm6XEk" />
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/垃圾堆/生产实习/Project/AirlineDemo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.47816092",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "b12a206e1c5aa794ad258b6936e69757",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\垃圾堆\生产实习\AirlineDemo\AirlineWeb\src\main\resources\static\pages" />
+      <recent name="D:\垃圾堆\生产实习\AirlineDemo\AirlineProcess\src\main\scala\com\software\process" />
+      <recent name="D:\垃圾堆\生产实习\AirlineDemo\AirlineWeb\src\main\resources\static\css" />
+      <recent name="D:\垃圾堆\生产实习\AirlineDemo\AirlineWeb\src\main\resources\static\js" />
+      <recent name="D:\垃圾堆\生产实习\AirlineDemo\AirlineWeb\src\main\resources\static\images" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.software.process" />
+      <recent name="org.example.dao" />
+      <recent name="org.example.common" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="AirlineProcess" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.software.process.AirlineProcess" />
+      <module name="AirlineProcess" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.software.process.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChinaTemperatureProcess" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.software.process.RegionalTemperatureProcess" />
+      <module name="AirlineProcess" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.software.process.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestScala" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.software.process.TestScala" />
+      <module name="AirlineProcess" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.software.process.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tbl_airline" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.software.process.tbl_airline" />
+      <module name="AirlineProcess" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.software.process.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="AirlineWeb" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.AirlineProcess" />
+        <item itemvalue="应用程序.tbl_airline" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04927ac1-83fc-46ff-9e30-0e6ab4f26558" name="Default Changelist" comment="" />
+      <created>1670924580521</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670924580521</updated>
+      <workItem from="1670924584989" duration="5107000" />
+      <workItem from="1670972857758" duration="2888000" />
+      <workItem from="1671847212015" duration="4422000" />
+      <workItem from="1673311819162" duration="2099000" />
+      <workItem from="1676246489250" duration="4620000" />
+      <workItem from="1676253101934" duration="10157000" />
+      <workItem from="1676332464454" duration="36777000" />
+      <workItem from="1676680602767" duration="139000" />
+      <workItem from="1688391830791" duration="4524000" />
+      <workItem from="1688432400133" duration="3244000" />
+      <workItem from="1688633250128" duration="59000" />
+      <workItem from="1688634511458" duration="3765000" />
+      <workItem from="1688647440536" duration="3511000" />
+      <workItem from="1688692211035" duration="16685000" />
+      <workItem from="1688715867220" duration="3528000" />
+      <workItem from="1688720810004" duration="310000" />
+      <workItem from="1688721150733" duration="51000" />
+      <workItem from="1688721809870" duration="121000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

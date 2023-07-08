@@ -1,0 +1,95 @@
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+@font-face {
+    font-family: electronicFont;
+    src: url(../font/DS-DIGIT.TTF);
+}
+body {
+    background: url(../images//bg.jpg) no-repeat top center;
+    line-height: 1.15;
+}
+.map {
+    position: relative;
+    height: 10.125rem;
+}
+.map .map1 {
+    width: 6.475rem;
+    height: 6.475rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(../images/map.png);
+    background-size: 100% 100%;
+    opacity: 0.3;
+}
+.map .map2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8.0375rem;
+    height: 8.0375rem;
+    background: url(../images/lbx.png);
+    background-size: 100% 100%;
+    animation: rotate1 15s linear infinite;
+    opacity: 0.6;
+}
+.map .map3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 7.075rem;
+    height: 7.075rem;
+    background: url(../images/jt.png);
+    background-size: 100% 100%;
+    animation: rotate2 15s linear infinite;
+}
+.map .chart {
+    z-index: 9999;
+    /*地图作为最高显示等级*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10.125rem;
+    width: 100%;
+}
+@keyframes rotate1 {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+@keyframes rotate2 {
+    from {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+}
+ /*约束屏幕尺寸 */
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 42px !important;
+    }
+}
+@media screen and (min-width: 1920px) {
+    html {
+        font-size: 80px !important;
+    }
+}
