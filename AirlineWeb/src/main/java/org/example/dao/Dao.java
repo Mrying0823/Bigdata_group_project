@@ -7,10 +7,6 @@ import java.util.Map;
 
 @Component
 public interface Dao {
-    List<Map<String, Object>> findChinaTemperature();
-
-    List<Map<String, Object>> selectPrivenceTemperature();
-
     //展示每个月航班情况
     List<Map<String, Object>> selectairport();
 

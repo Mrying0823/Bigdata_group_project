@@ -21,16 +21,6 @@ public class Controller {
         return "Hello SpringBoot!";
     }
 
-    @RequestMapping("/display/Temperature")
-    public List<Map<String, Object>> displayTemperature() {
-        return dao.findChinaTemperature();
-    }
-
-    @RequestMapping("/display/StateTemperature")
-    public List<Map<String, Object>> stateTemperature() {
-        return dao.selectPrivenceTemperature();
-    }
-
     //展示每月航班数
     @RequestMapping("/airportsituation")
     public List<Map<String, Object>> airportsituation() {

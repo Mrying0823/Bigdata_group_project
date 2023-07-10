@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04927ac1-83fc-46ff-9e30-0e6ab4f26558" name="Default Changelist" comment="" />
+    <list default="true" id="04927ac1-83fc-46ff-9e30-0e6ab4f26558" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirlineWeb/src/main/java/org/example/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/AirlineWeb/src/main/java/org/example/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirlineWeb/src/main/java/org/example/dao/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/AirlineWeb/src/main/java/org/example/dao/Dao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirlineWeb/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/AirlineWeb/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +25,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="6a415df8-2af0-4942-9add-221eaba649e5" />
   <component name="MarkdownSettingsMigration">
@@ -57,6 +65,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/垃圾堆/生产实习/Project/AirlineDemo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -190,6 +199,7 @@
       <workItem from="1688720810004" duration="310000" />
       <workItem from="1688721150733" duration="51000" />
       <workItem from="1688721809870" duration="121000" />
+      <workItem from="1688993756141" duration="1436000" />
     </task>
     <servers />
   </component>
