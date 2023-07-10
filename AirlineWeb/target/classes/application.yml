@@ -9,7 +9,7 @@ spring:
 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.56.102:3306/Airline
+    url: jdbc:mysql://47.108.233.209:3306/Airline
     username: root
     password: 123456
 

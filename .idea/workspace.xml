@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04927ac1-83fc-46ff-9e30-0e6ab4f26558" name="Default Changelist" comment="项目相关提交" />
+    <list default="true" id="04927ac1-83fc-46ff-9e30-0e6ab4f26558" name="Default Changelist" comment="项目相关提交">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirlineWeb/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/AirlineWeb/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirlineWeb/target/classes/org/example/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/AirlineWeb/target/classes/org/example/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirlineWeb/target/classes/org/example/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/AirlineWeb/target/classes/org/example/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirlineWeb/target/classes/org/example/dao/Dao.class" beforeDir="false" afterPath="$PROJECT_DIR$/AirlineWeb/target/classes/org/example/dao/Dao.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +38,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\apache-maven-3.9.2\maven-repo" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.9.2" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../apache-maven-3.9.2" />
         <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="D:\apache-maven-3.9.2\conf\settings.xml" />
       </MavenGeneralSettings>
@@ -71,7 +77,7 @@
     "project.structure.last.edited": "项目",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.47816092",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "MavenSettings",
     "spring.configuration.checksum": "b12a206e1c5aa794ad258b6936e69757",
     "vue.rearranger.settings.migration": "true"
   }
@@ -196,7 +202,7 @@
       <workItem from="1688720810004" duration="310000" />
       <workItem from="1688721150733" duration="51000" />
       <workItem from="1688721809870" duration="121000" />
-      <workItem from="1688993756141" duration="1736000" />
+      <workItem from="1688993756141" duration="2184000" />
     </task>
     <task id="LOCAL-00001" summary="项目相关提交">
       <created>1688995695794</created>
@@ -212,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688995893628</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="项目相关提交">
+      <created>1688996004082</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688996004082</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
